@@ -33,3 +33,9 @@ section[id]{scroll-margin-top:100px}
 @media(min-width:721px) and (max-width:1080px){.nav{height:auto;min-height:82px;flex-wrap:wrap;gap:12px;padding:14px 0}.links{flex-wrap:wrap;gap:14px}}
 @media(max-width:1020px){.pr-offers{grid-template-columns:1fr}.pr-offer h3{font-size:30px}.pr-offer .btn{align-self:flex-start}}
 @media(max-width:720px){.pr-details{grid-template-columns:1fr;gap:28px}.pr-offer{padding:25px}.pr-intro{font-size:16px}.pr-offer .btn{align-self:stretch}}
+
+/* Commercial positioning: tailored proposals and compact secondary services */
+.service-note{margin:25px 0 0;font-size:14px;line-height:1.6}
+.services .service-note{color:#d8e1e8}
+.pr-section .service-note{color:var(--muted)}
+.pr-offer>p{color:#58636d;font-size:15px;flex:1;margin:0 0 22px}
